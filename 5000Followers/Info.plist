@@ -18,10 +18,61 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1059535647443766</string>
+				<string>InstaFollowers</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>16</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>5e898d98e56a0fdb594e4c4345c64b2863a43b9a</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>a4CX4URyk717964E0NKgoHxnt</string>
+					<key>consumerSecret</key>
+					<string>voXreu3MhVSnejLs67Uclj8GG6HTGCcWptHCkX4NGDQ16EIclH</string>
+				</dict>
+				<key>KitName</key>
+				<string>Twitter</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>1059535647443766</string>
+	<key>FacebookDisplayName</key>
+	<string>Insta FollowersTest</string>
+	<key>InstagramAppClientId</key>
+	<string>625bcaa722bc4e5eb9e8cf10d468e2f3</string>
+	<key>InstagramAppRedirectURL</key>
+	<string>http://google.com</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -33,8 +84,13 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_nalZbJgkywDJvzaMQW3MdmiesAcfn3T1</string>
+		<key>test</key>
+		<string>key_test_fbf8ePbcrDvJBwmHIX5ZSljjBAgfg62o</string>
+	</dict>
 </dict>
 </plist>
